@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+.page{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    background-color:#f1f1f1;
+    padding: 0 8px;
+    padding-bottom: 48px;
+}
+.block1{
+    background-color: white;
+    box-shadow: 0px 2px 5px 2px rgba(0,0, 0,0.12);
+    margin:15px 8px;
+    height: fit-content;
+}
+.photo-block{
+    position:relative;
+}
+.photo-block img{
+    width: 100%;
+    height: auto;
+}
+.name-block{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    font-size: 24px;
+}
+.about-myself{
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px #f1f1f1;
+    margin: 10px;
+}
+.about-myself p{
+    padding: 10px 0;
+    font-size: 18px;
+}
+.about-myself p span{
+    color: rgb(140, 140, 234);
+}
+.my-skills{
+    border-bottom: solid 1px #f1f1f1;
+    margin: 10px;
+    padding: 5px 0;
+}
+.skill-title{
+    font-size: 20px;
+    padding: 10px 0;
+}
+.skill-title span{
+    color:rgb(140, 140, 234);
+}
+.skill1 p{
+    font-size: 18px;
+}
+.grey-line{
+    margin: 10px 0;
+    background-color: #f1f1f1;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 12px;
+}
+.in-line1{
+    border-radius: 16px;
+    background-color: rgb(140, 140, 234);
+    width: 90%;
+}
+.in-line2{
+    border-radius: 16px;
+    background-color: rgb(140, 140, 234);
+    width: 80%;
+}
+.in-line3{
+    border-radius: 16px;
+    background-color: rgb(140, 140, 234);
+    width: 75%;
+}
+.in-line4{
+    border-radius: 16px;
+    background-color: rgb(140, 140, 234);
+    width: 50%;
+}
+.in-line5{
+    border-radius: 16px;
+    background-color: rgb(140, 140, 234);
+    width: 100%;
+}
+.in-line6{
+    border-radius: 16px;
+    background-color: rgb(140, 140, 234);
+    width: 50%;
+}
+.in-line7{
+    border-radius: 16px;
+    background-color: rgb(140, 140, 234);
+    width: 25%;
+}
+.my-languages{
+    margin: 10px;
+    padding: 5px 0;
+}
+.block2{
+    background-color: white;
+    box-shadow: 0px 2px 5px 2px rgba(0,0, 0,0.12);
+    margin:15px 8px 0 8px;
+    height: fit-content;
+}
+.right-block{
+    display: grid;
+    grid-template-rows: auto auto;
+    align-content: space-between;
+    gap: 15px;
+    height: 80%;
+}
+.title{
+    font-size: 25px;
+    padding: 30px 30px 0 30px;
+    color:rgb(145, 143, 143);
+}
+.title span{
+    color: rgb(140, 140, 234);
+}
+.box {
+    margin: 30px;
+    border-bottom: solid 1px #f1f1f1;
+}
+.box h3{
+    padding: 6px 0;
+    color: rgb(145, 143, 143);
+}
+.box span{
+    padding: 6px 0;
+    color: rgb(140, 140, 234);
+}
+.box p{
+    padding: 6px 0;
+}
+footer{
+    padding: 20px;
+    background-color: rgb(140, 140, 234);
+    color: white;
+    text-align: center;
+}
+footer p,footer .social-icons{
+    padding: 5px;
+}
+.social-icons a{
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+}
+@media screen and (max-width:701px){
+    .page{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
